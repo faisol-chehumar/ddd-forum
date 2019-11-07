@@ -9,9 +9,9 @@ services:
       - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=rootpwd
-      - MYSQL_DATABASE=${DDD_FORUM_DB_DEV_DB_NAME}
-      - MYSQL_USER=${DDD_FORUM_DB_USER}
-      - MYSQL_PASSWORD=${DDD_FORUM_DB_PASS}
+      - MYSQL_DATABASE=ddd_forum_dev
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=pass
 
   adminer:
     image: adminer
